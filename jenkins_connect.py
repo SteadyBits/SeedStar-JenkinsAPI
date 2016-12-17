@@ -6,7 +6,7 @@ import sqlite3
 
 def get_server_instance():
     jenkins_url = 'http://localhost:8080'
-    server = Jenkins(jenkins_url, username='steadybits', password='bits4all')
+    server = Jenkins(jenkins_url, username='abc123', password='abc123')
     return server
 
 
